@@ -4,6 +4,7 @@ class Shoe
 
   BRANDS = ["Uggs", "Rainbow"]
   def initialize(brand)
+    binding.pry 
     @brand = brand
   end
 
@@ -16,7 +17,7 @@ class Shoe
     @brands = brands
     BRANDS << brands
     
-binding.pry
+# binding.pry
   end
 
 end
