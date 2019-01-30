@@ -4,10 +4,10 @@ class Shoe
 
   BRANDS = ["Uggs", "Rainbow"]
   def initialize(brand)
-    binding.pry 
+    
     @brand = brand
   end
-
+  binding.pry 
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
