@@ -1,6 +1,6 @@
 require 'pry'
 class Shoe
-  attr_accessor :color, :size, :material, :condition,:brand
+  attr_accessor :color, :size, :material, :condition
   attr_accessor :brand
   BRANDS = ["Uggs", "Rainbow"]
   def initialize(brand)
